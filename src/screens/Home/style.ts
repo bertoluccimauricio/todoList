@@ -23,6 +23,19 @@ export const styles = StyleSheet.create({
     marginRight: 2,
     fontSize: 16,
   },
+  newTaskFocus: {
+    flex: 1,
+    height: 56,
+    borderRadius: 5,
+    backgroundColor: "#262626",
+    color: "#FFF",
+    padding: 12,
+    marginLeft: 24,
+    marginRight: 5,
+    fontSize: 16,
+    borderColor: "#8284FA",
+    borderWidth: 0.5,
+  },
   addNewTask: {
     backgroundColor: "#1E6F9F",
     height: 56,
@@ -40,6 +53,80 @@ export const styles = StyleSheet.create({
   form: {
     width: "100%",
     flexDirection: "row",
-    marginBottom: 42,
+    marginBottom: 30,
+  },
+  status: {
+    width: "100%",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 20,
+  },
+  criadasContainer: {
+    flexDirection: "row",
+  },
+  criadasLabel: {
+    fontSize: 16,
+    fontFamily: "Inter_700Bold",
+    marginLeft: 24,
+    marginRight: 12,
+    color: "#4EA8DE",
+  },
+  criadasFundoValor: {
+    backgroundColor: "#262626",
+    width: 32,
+    alignItems: "center",
+    borderRadius: 10,
+  },
+  criadasValor: {
+    fontSize: 16,
+    fontFamily: "Inter_700Bold",
+    color: "#FFF",
+  },
+  concluidasContainer: {
+    flexDirection: "row",
+  },
+  concluidasLabel: {
+    fontSize: 16,
+    fontFamily: "Inter_700Bold",
+    marginRight: 12,
+    color: "#8284FA",
+  },
+  concluidasFundoValor: {
+    backgroundColor: "#262626",
+    marginRight: 24,
+    width: 32,
+    alignItems: "center",
+    borderRadius: 10,
+  },
+  concluidasValor: {
+    fontSize: 16,
+    fontFamily: "Inter_700Bold",
+    color: "#FFF",
+  },
+  listTask: {
+    height: 247,
+    width: 327,
+    alignItems: "center",
+    borderTopColor: "#262626",
+    borderTopWidth: 1,
+  },
+  clipboard: {
+    height: 56,
+    width: 56,
+    marginTop: 56,
+    marginBottom: 36,
+  },
+  bold: {
+    fontSize: 14,
+    fontFamily: "Inter_700Bold",
+    color: "#808080",
+  },
+  regular: {
+    fontSize: 14,
+    fontFamily: "Inter_400Regular",
+    color: "#808080",
+  },
+  semTarefas: {
+    alignItems: "center",
   },
 });
